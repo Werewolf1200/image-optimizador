@@ -1,0 +1,23 @@
+{
+  "name": "02-img-opt",
+  "version": "1.0.0",
+  "description": "Optimizador de Imagenes para la Web",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Saúl Camacho",
+  "license": "ISC",
+  "devDependencies": {
+    "fs-extra": "^11.1.1",
+    "imagemin": "^8.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^10.0.1",
+    "imagemin-webp": "^8.0.0",
+    "sharp": "^0.32.6"
+  }
+}
